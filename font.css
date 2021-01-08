@@ -1,0 +1,48 @@
+@font-face{
+	font-family: Raleway; 
+	src:url("fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+@font-face{
+	font-family: Raleway; 
+	src:url("fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+}
+@font-face{
+	font-family: Raleway; 
+	src:url("fonts/Raleway/static/Raleway-Black.ttf");
+}
+@font-face{
+	font-family: Raleway; 
+	src:url("fonts/Raleway/static/Raleway-BlackItalic.ttf");
+}
+/*@font-face{
+	font-family: Raleway; 
+	src:url("fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+@font-face{
+	font-family: Raleway; 
+	src:url("fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}*/
+@font-face{
+	font-family: D-DIN; 
+	src:url("fonts/D-DIN/d-din.bold.ttf");
+}
+@font-face{
+	font-family: D-DIN; 
+	src:url("fonts/D-DIN/d-din.condennsed-bold.ttf");
+}
+@font-face{
+	font-family: D-DIN; 
+	src:url("fonts/D-DIN/d-din.condensed.ttf");
+}
+@font-face{
+	font-family: D-DIN; 
+	src:url("fonts/D-DIN/d-din.exp-bold.ttf");
+}
+@font-face{
+	font-family: Golden; 
+	src:url("fonts/Golden/Golden-Bold.ttf");
+}
+@font-face{
+	font-family: Golden; 
+	src:url("fonts/Golden/Golden-Regular.ttf");
+}

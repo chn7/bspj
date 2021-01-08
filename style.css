@@ -1,0 +1,204 @@
+*{
+	font-family: D-DIN;
+	margin: 0;
+	padding: 0;
+}
+div#logo img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+div#logo h1{
+	font-family: Goldman;
+	font-size: 30px;
+	padding-top: 37px;
+}
+div#logo{
+	margin: 10px 500px;
+}
+.clear{
+	clear: both;
+}
+div#navbar a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	letter-spacing: 5px;
+}
+div#navbar a.active,div#navbar a:hover
+{
+	border-bottom: 2px solid #ddaa20;
+}
+div#navbar ul li{
+	display: inline;
+	line-height: 60px;
+	padding: 0px 20px;
+}
+div#navbar{
+	background-color: #1B1E23;
+}
+div#navbar ul{
+	padding: 0px 50px;
+}
+div#navbar ul li a{
+	position: relative;
+}
+div#navbar ul li a:after{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background-color: #aaa;
+	height: 1px;
+}
+div#navbar ul li a:hover:after{
+	width: 100%;
+}
+
+div#banner img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+div#banner i{
+	position: absolute;
+	top: 30%;
+	left: 48%;
+	font-size: 80px;
+	color: #ddaa20;
+}
+div#banner div#quote{
+	position: absolute;
+	top: 60%;
+	left: 28%;
+	background-color: rgba(255,255,255,0.5);
+	padding: 30px;
+	font-size: 20px;
+}
+div#service div.service-column{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 40px;
+}
+div#service div.service-column div{
+	font-size: 15px;
+	text-align: center;
+	padding: 25px;
+}
+div#service div.service-title,div#shop div.shop-title,
+div#special div.special-title,div#menu div.menu-title
+{
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 20px;
+}
+div#service div.service-title h1,
+div#shop div.shop-title h1,
+div#special div.special-title h1,
+div#menu div.menu-title h1
+{
+	padding-top: 145px;
+	font-size: 40px;
+	color: #ddaa20;
+}
+div#service hr,div#shop hr,
+div#special hr,div#menu hr
+{
+	width: 420px;
+	height: 1px;
+	margin: 58px 360px;
+}
+div#service div.category h2{
+	text-transform: uppercase;
+	padding: 25px;
+}
+div#service div.category i{
+	font-size: 50px;
+}
+div#shop img{
+	width: 450px;
+	height: 300px;
+	object-fit: cover;
+}
+div#shop div.shop-column{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    padding-bottom: 65px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+div#shop div.shop-column div.shop-two{
+	text-align: left;
+	padding-left: 30px;
+	margin-top: 4px;
+}
+div#shop div.shop-column div.shop-two p{
+	margin-bottom: 34px;
+	font-size: 17px;
+}
+div#special img#gallery-one{
+	width: 550px;
+	height: 385px;
+	object-fit: cover;
+}
+div#special img#gallery-two{
+	width: 334px;
+	height: 193px;
+	object-fit: cover;
+}
+div#special img#gallery-three{
+	width: 165px;
+	height: 191px;
+	object-fit: cover;
+}
+div#special img#gallery-four{
+	width: 165px;
+	height: 191px;
+	object-fit: cover;
+	position: relative;
+	right: 35px;
+}
+div#special div.special-photos{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 5px;
+	margin: 40px 100px;
+}
+div#special div.special-photos div.part-2{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 5px;
+	padding-right: 45px;
+}
+div.special-photos div.column-one{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+div.menu-grid img{
+	width: 300px;
+	height: 300px;
+}
+div#menu div.menu-grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 40px 100px;
+}
+div.menu-grid div.menu-list{
+	margin-top: 29px;
+}
+div.menu-grid div.menu-list h2{
+	margin-bottom: 20px;
+}
+div.menu-grid li{
+	padding: 10px;
+}
